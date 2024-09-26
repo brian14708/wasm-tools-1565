@@ -1,0 +1,7 @@
+package example:demo;
+
+world my-world {
+    use wasi:io/poll@0.2.1.{pollable};
+    import my-sleep: func() -> pollable; 
+    export run: func() -> string;
+}
