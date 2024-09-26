@@ -1,6 +1,6 @@
 This is a test of `wasm-tools compose`/`wac` when composing wasi-virt with custom component.
 
-The custom component has a simple `my-sleep` func that returns a custom `pollable`.
+The custom component has a simple `my-sleep` func that returns a custom `pollable` see [world.wit](./wit/world.wit).
 
 To run:
 
